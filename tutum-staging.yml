@@ -1,5 +1,5 @@
 web-staging:
-  image: 'tutum.co/borja/webinar:latest'
+  image: 'pkennedyr/webinar:latest'
   restart: always
   autoredeploy: true
   ports:
