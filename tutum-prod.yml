@@ -17,7 +17,7 @@ redis:
     - prod
 
 web:
-  image: 'tutum.co/borja/webinar:master'
+  image: 'pkennedyr/webinar:master'
   autoredeploy: true
   deployment_strategy: high_availability
   environment:
